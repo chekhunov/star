@@ -1,0 +1,24 @@
+$default: #0f0f0f; //шрифт
+$title: #0f0f0f; // заголовки
+
+%opensans-300 {
+  font-family: 'Opensans-Light', sans-serif;
+  font-weight: 300;
+}
+
+%opensans-400 {
+  font-family: 'Opensans', sans-serif;
+  font-weight: 400;
+}
+
+%opensans-700 {
+  font-family: 'Opensans-Bold', sans-serif;
+  font-weight: 700;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

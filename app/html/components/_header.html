@@ -1,0 +1,161 @@
+<header id="header-section" class="header">
+
+  <div class="header__top">
+    <div class="container">
+      <div class="header__menu-nav">
+        <button class="header__user">
+          <svg class="header__user-svg">
+            <use xlink:href="images/sprite.svg#user"></use>
+          </svg>
+          <svg class="header__arrowdown-svg">
+            <use xlink:href="images/sprite.svg#arrow-down"></use>
+          </svg>
+        </button>
+
+        <button class="header__cart">
+          <svg class="header__cart-svg">
+            <use xlink:href="images/sprite.svg#cart"></use>
+          </svg>
+          <span>0</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="header__wrapper">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#body">
+          <img class="logo__img" src="/images/logo.png" alt="logo image">
+        </a>
+
+        <div class="header__box">
+          <div class="header__backcall">
+            <p class="header__modal">
+              <a class="header__modal-link" href="#backcall" rel="modal:open">
+                Заказать обратный звонок
+              </a>
+            </p>
+
+            <a class="header__link" href="tel:+380445011441">
+              +38 (044) 501 14 41
+            </a>
+            <a class="header__link" href="tel:+380577840700">
+              +38 (057) 784 07 00
+            </a>
+
+            @@include('../components/_modal-backcall.html')
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="header__bottom">
+    <div class="container">
+      <button class="popup">Каталог товаров</button>
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <svg class="menu__icon">
+              <use xlink:href="images/sprite.svg#furn"></use>
+            </svg>
+            <svg class="menu__icon-red">
+              <use xlink:href="images/sprite.svg#furnred"></use>
+            </svg>
+            <span class="menu__title">Мебель</span>
+          </a>
+        </li>
+
+        <li class="menu__item menu__item--active">
+          <a class="menu__link" href="#">
+            <svg class="menu__icon">
+              <use xlink:href="images/sprite.svg#cut"></use>
+            </svg>
+            <svg class="menu__icon-red">
+              <use xlink:href="images/sprite.svg#cutred"></use>
+            </svg>
+            <span class="menu__title">Кухня</span>
+          </a>
+        </li>
+
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <svg class="menu__icon">
+              <use xlink:href="images/sprite.svg#house"></use>
+            </svg>
+            <svg class="menu__icon-red">
+              <use xlink:href="images/sprite.svg#housered"></use>
+            </svg>
+            <span class="menu__title">Все для дома</span>
+          </a>
+        </li>
+
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <svg class="menu__icon">
+              <use xlink:href="images/sprite.svg#lamp"></use>
+            </svg>
+            <svg class="menu__icon-red">
+              <use xlink:href="images/sprite.svg#lampred"></use>
+            </svg>
+            <span class="menu__title">Освещение</span>
+          </a>
+        </li>
+
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <svg class="menu__icon">
+              <use xlink:href="images/sprite.svg#decor"></use>
+            </svg>
+            <svg class="menu__icon-red">
+              <use xlink:href="images/sprite.svg#decorred"></use>
+            </svg>
+            <span class="menu__title">Часы и декор</span>
+          </a>
+        </li>
+
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <svg class="menu__icon">
+              <use xlink:href="images/sprite.svg#style"></use>
+            </svg>
+            <svg class="menu__icon-red">
+              <use xlink:href="images/sprite.svg#stylered"></use>
+            </svg>
+            <span class="menu__title">Деловой стиль</span>
+          </a>
+        </li>
+
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <svg class="menu__icon">
+              <use xlink:href="images/sprite.svg#relax"></use>
+            </svg>
+            <svg class="menu__icon-red">
+              <use xlink:href="images/sprite.svg#relaxred"></use>
+            </svg>
+            <span class="menu__title">Активный отдых</span>
+          </a>
+        </li>
+
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <svg class="menu__icon">
+              <use xlink:href="images/sprite.svg#children"></use>
+            </svg>
+            <svg class="menu__icon-red">
+              <use xlink:href="images/sprite.svg#childrenred"></use>
+            </svg>
+            <span class="menu__title">Детский мир</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</header>
